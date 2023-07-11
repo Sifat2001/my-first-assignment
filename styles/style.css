@@ -7,6 +7,7 @@
 
     font-family: 'Open Sans', sans-serif;
     margin-right: auto;
+    padding-right: 20px;
 }
 
 .paragraph {
@@ -27,7 +28,7 @@ height: 850px;
 }
 .head-btn{
     background-color: #E55473; /* Green */
-  border: #fff;
+  color: #fff;
   
   padding: 15px 32px;
   text-align: center;
@@ -36,3 +37,31 @@ height: 850px;
   font-size: 16px;
 
 }
+/* main body */
+
+.title{
+    text-align: center;
+}
+.flower-section{
+  
+    display: flex;
+    gap: 50px;
+    
+
+}
+.hot-deal{
+    width: 1922px;
+height: 620px;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+text-align: center;
+}
+
+
+.deal-img{
+    float: right;
+    margin-right: 0px 0px 0px 30px;
+    width: 400px;
+    height: 350px;
+}
+
