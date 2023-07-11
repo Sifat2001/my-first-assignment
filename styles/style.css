@@ -75,4 +75,23 @@ text-align: center;
     text-align: center;
     background-color: #fff;
 }
+.background{
+    text-align: center;
+    border-radius: 8px;
+}
+.email-box{
+    width: 700px;
+height: 64px;
+}
 
+/* Footer */
+.footer-background{
+    background: #111010;
+    width: 1922px;
+height: 449px;
+}
+
+.shop-footer{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.90);
+}
