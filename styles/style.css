@@ -32,19 +32,21 @@ body{
     background: rgba(229, 84, 115, 0.10);
     width: 1920px;
     height: 850px;
+    position: relative;
 
 
 }
-.headimg{
-
-margin-top: auto;
-    padding: 0px 400px 40px 1045px;
-    width: 635px;
+.head-img{
+width: 635px;
 height: 800px;
+padding-bottom: 0;
+position: absolute;
+margin-bottom: 0;
+margin-right: 0;
 
 }
 .head-btn{
-    background-color: #E55473; /* Green */
+    background-color: #E55473;
   color: #fff;
   
   padding: 20px 43px 20px 43px;
@@ -65,8 +67,6 @@ height: 800px;
   display: inline;
     display: flex;
     gap: 50px;
-    
-
 }
 .flower-name{
     text-align: center;
@@ -98,8 +98,6 @@ line-height: 30px;
   color: #fff;
   align-items: center;
   padding: 15px 33px 15px 33px;
-  
-
   font-size: 15px;
   border: 0px;
 }
@@ -145,4 +143,20 @@ height: 449px;
 .shop-footer{
     text-align: center;
     color: rgba(255, 255, 255, 0.90);
+}
+.special-container {
+    display: flex;
+    gap: 24px;
+}
+
+.special-flower {
+    padding: 30px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.flower-description {
+    color: #757575;
 }
