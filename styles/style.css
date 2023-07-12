@@ -1,40 +1,57 @@
 /* banner */
+body{
+    border: 0;
+}
 .banner-text {
     color: #272727;
     display: flex;
 
-    flex-direction: column;
 
     font-family: 'Open Sans', sans-serif;
-    margin-right: auto;
-    padding-right: 20px;
+    
+    padding:30px 30px 30px 50px;
+
+}
+.paragraph{
+    color: #272727;
+    
+    font-family: 'Open Sans', sans-serif;
+    padding:10px 20px 10px 50px;
+}
+.banner-text,.paragraph,.headimg{
+    width: 500px;
+    display: flex;
 }
 
 .paragraph {
    padding-right: 20px;
 }
 
-.background {
+.background{
     background: rgba(229, 84, 115, 0.10);
     width: 1920px;
     height: 850px;
 
+
 }
 .headimg{
-    text-align: right;
-    width: 1920px;
-height: 850px;
+
+margin-top: auto;
+    padding: 0px 400px 40px 1045px;
+    width: 635px;
+height: 800px;
 
 }
 .head-btn{
     background-color: #E55473; /* Green */
   color: #fff;
   
-  padding: 15px 32px;
+  padding: 20px 43px 20px 43px;
   text-align: center;
   
   display: inline-block;
   font-size: 16px;
+  border: 0px;
 
 }
 /* main body */
@@ -75,9 +92,10 @@ text-align: center;
     text-align: center;
     background-color: #fff;
 }
-.background{
+.background-deal{
     text-align: center;
     border-radius: 8px;
+    background-image: url('../images/Rectangle\ 9.png');
 }
 .email-box{
     width: 700px;
